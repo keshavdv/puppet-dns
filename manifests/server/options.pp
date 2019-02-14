@@ -154,7 +154,6 @@
 #    forwarders => [ '8.8.8.8', '8.8.4.4' ],
 #   }
 #
-include dns::server::params
 define dns::server::options (
   $allow_query = [],
   $allow_recursion = [],
